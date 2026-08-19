@@ -27,7 +27,7 @@ dependencies = [
     "autobahn>=22.7.1",
     "bcrypt>=3.1.4,<5.0.0",
     "bidict==0.22.0",
-    "bleach>=4.1.0,<5.0.0",
+    "bleach>=4.1.0,<7.0.0",
     "celery==5.4.0",
     "click>=8.0.1",
     "colorama>=0.3.9",
@@ -80,13 +80,13 @@ dependencies = [
     "service-identity>=17.0.0",
     "sh>=2.2.2",
     "simplekv>=0.13.0",
-    "setuptools>=61,<81",
+    "setuptools>=61,<84",
     "sqlalchemy>=2.0.30,<2.1",
     "syslog-rfc5424-formatter>=1.1.1",
     "tqdm>=4.15.0",
     "validators>=0.20.0",
     "webargs>=8.0.0",
-    "werkzeug==2.3.8",
+    "werkzeug==3.1.6",
     "wtforms>=2.1",
     "lxml>=6.1.0",
     "ujson>=5.12.0",
@@ -114,7 +114,7 @@ extras = [
 ]
 
 [build-system]
-requires = ["setuptools>=61,<81", "wheel"]
+requires = ["setuptools>=61,<84", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [dependency-groups]
